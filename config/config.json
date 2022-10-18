@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "app-browser-tester-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/appBrowserTester/AppBrowserTesterWebPart.js",
+          "manifest": "./src/webparts/appBrowserTester/AppBrowserTesterWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AppBrowserTesterWebPartStrings": "lib/webparts/appBrowserTester/loc/{locale}.js"
+  }
+}

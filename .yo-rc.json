@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.0",
+    "libraryName": "app-browser-tester",
+    "libraryId": "7dfe9d7d-ffc1-42cd-a46a-91237c525e39",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "app-browser-tester",
+    "solutionShortDescription": "app-browser-tester description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
